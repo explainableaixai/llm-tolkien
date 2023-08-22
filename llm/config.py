@@ -4,7 +4,7 @@ from pathlib import Path
 REPO_DIR = Path(os.path.realpath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Text extraction
-url = 'https://www.alpha-quantum/a.pdf'
+url = 'https://www.alpha-quantum.com/a.pdf'
 header_height = 60  # Main text distance from the top of the page: to remove header
 footer_height = 540 # Remove footer
 start_page = 45
