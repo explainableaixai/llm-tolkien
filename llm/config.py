@@ -4,7 +4,7 @@ from pathlib import Path
 REPO_DIR = Path(os.path.realpath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Text extraction
-url = 'https://www.alpha-quantum.com/a.pdf'
+url = 'https://gosafir.com/mag/wp-content/uploads/2019/12/Tolkien-J.-The-lord-of-the-rings-HarperCollins-ebooks-2010.pdf'
 header_height = 60  # Main text distance from the top of the page: to remove header
 footer_height = 540 # Remove footer
 start_page = 45
